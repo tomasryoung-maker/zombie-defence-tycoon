@@ -25,9 +25,11 @@ All cross-module messages flow through a central event bus, never direct calls.
 
 ## Conventions
 - Verse files: snake_case.verse
-- Verse classes: PascalCase
+- Verse classes: snake_case (matches stdlib and Epic's style guide)
 - Verse functions: snake_case
-- Save schema has a version field; migrations are mandatory from day one
+- Verse local variables and parameters: PascalCase (Epic convention)
+- Save schema has a version field from day one (file exists, version constant set)
+- Migrations become mandatory the moment we start writing real persistent data (Phase 3 onward). Until then, persistence_layer.verse holds stub signatures only.
 
 ## Things To Never Do
 - Never bypass PersistenceLayer for storage access
