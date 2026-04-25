@@ -1,0 +1,64 @@
+{
+	"fileVersion": 15,
+	"title": "ZombieDefenseTycoon",
+	"description": "",
+	"keyArt": "",
+	"docsUrl": "",
+	"apiAccess": "Private",
+	"compatibilityVersion": "40.20",
+	"requiredRedirectorStartingVersion": "40.20.52900211",
+	"editorPermissions": [],
+	"epicApp": "",
+	"sortPriority": 0,
+	"featureSet": "",
+	"plugins": [
+		{
+			"name": "ZombieDefenseTycoon",
+			"bIsRoot": true,
+			"bIsPublic": false
+		}
+	],
+	"dataSets":
+	{
+		"matchmaking":
+		{
+			"maxPlayers": 16,
+			"maxTeamCount": 1,
+			"maxTeamSize": 16,
+			"maxSocialPartySize": 16,
+			"allowJoinInProgress": true,
+			"allowSquadFillOption": false,
+			"islandQueuePrivacy": "Public",
+			"minPlayers": 1,
+			"overtimePlayerTarget": 1,
+			"queueMainDuration": 5,
+			"queueOvertimeDuration": 5,
+			"useSkillBasedMatchmaking": false,
+			"ratingType": "",
+			"version": 1
+		},
+		"experimental":
+		{
+			"sceneGraph":
+			{
+				"bIsSceneGraphSystemAllowed": true,
+				"bEnableOneFilePerEntity": false
+			},
+			"personaDevice":
+			{
+				"bEnablePersonaDevice": false
+			},
+			"version": 1
+		}
+	},
+	"bindings":
+	{
+		"projectId": "b9634d7d-4ece-9cb7-8eac-528ed2a4a474",
+		"modules":
+		{
+			"ZombieDefenseTycoon": "c3a846b8-4b76-2e65-bacc-509f8b32cd87"
+		},
+		"bSuppressAutomaticVersePathAssignment": false,
+		"projectVersePath": ""
+	}
+}

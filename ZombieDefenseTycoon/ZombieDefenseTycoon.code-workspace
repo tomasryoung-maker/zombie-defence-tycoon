@@ -1,0 +1,57 @@
+{
+    "folders": [
+        {
+            "name": "/invaliddomain/ZombieDefenseTycoon",
+            "path": "C:/Dev/ZombieDefenceTycoon/ZombieDefenseTycoon/Content"
+        },
+        {
+            "name": "/invaliddomain/ZombieDefenseTycoon (Assets)",
+            "path": "C:/Users/Tomas/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/ZombieDefenseTycoon/ZombieDefenseTycoon-Assets"
+        },
+        {
+            "name": "vproject - DO NOT MODIFY",
+            "path": "C:/Users/Tomas/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/ZombieDefenseTycoon/vproject"
+        },
+        {
+            "name": "/Verse.org",
+            "path": "C:/Users/Tomas/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/ZombieDefenseTycoon/Verse"
+        },
+        {
+            "name": "/UnrealEngine.com",
+            "path": "C:/Users/Tomas/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/ZombieDefenseTycoon/UnrealEngine"
+        },
+        {
+            "name": "/Fortnite.com",
+            "path": "C:/Users/Tomas/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/ZombieDefenseTycoon/Fortnite"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/*.uasset": true,
+            "**/*.umap": true,
+            "**/*.png": true,
+            "**/*.jpg": true,
+            "**/*.tga": true,
+            "_INT": true,
+            "**/*.vproject": true,
+            "__ExternalActors__": true,
+            "__ExternalObjects__": true,
+            "Collections": true,
+            "Developers": true
+        },
+        "workbench.colorTheme": "Verse (Dark)",
+        "editor.bracketPairColorization.enabled": false,
+        "editor.acceptSuggestionOnEnter": "off"
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Verse Debug",
+                "type": "verse",
+                "request": "attach",
+                "debugServer": 1961
+            }
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.sln
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+secrets.json
